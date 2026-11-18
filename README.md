@@ -7,14 +7,15 @@ Implemented a synchronous FIFO using Verilog HDL to store and retrieve data sequ
 - Read and write pointer logic
 - Full and empty flag detection
 - Parameterized FIFO depth and width
-- Testbench-based verification
+- UVM-Based Testbench-based verification
 
 ## Tools Used
 - Verilog HDL
+- SystemVerilog and UVM
 - ModelSim
 - Cadence Xcelium
 
 ## Files
 fifo-design.v – FIFO RTL design  
-fifo-testbench.v – Testbench for verification
+fifo-testbench.v – UVM Testbench for verification
 fifo-waveform-png - Successfull Read & Write Operation
