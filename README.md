@@ -16,6 +16,6 @@ Implemented a synchronous FIFO using Verilog HDL to store and retrieve data sequ
 - Cadence Xcelium
 
 ## Files
-fifo-design.v – FIFO RTL design  
-fifo-testbench.v – UVM Testbench for verification
+fifo-design.sv – FIFO RTL design  
+fifo-testbench.sv – UVM Testbench for verification
 fifo-waveform-png - Successfull Read & Write Operation
